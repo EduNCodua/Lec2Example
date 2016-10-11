@@ -23,23 +23,27 @@ public class ArCalc {
     }
 
     public ArCalc add(int operand) {
-        result =+ operand;
+        result = result + operand;
+        LOGGER.log(Level.INFO, "add-operation get result " + result);
         return this;
     }
 
     public ArCalc sub(int operand) {
-        result =- operand;
+        result = result - operand;
+        LOGGER.log(Level.INFO, "sub-operation get result " + result);
         return this;
     }
 
     public ArCalc mult(int operand) {
         result = result * operand;
+        LOGGER.log(Level.INFO, "mult-operation get result " + result);
         return this;
     }
 
     public ArCalc div(int operand) {
         try {
             result = result / operand;
+            LOGGER.log(Level.INFO, "div-operation get result " + result);
         } catch (ArithmeticException e) {
             LOGGER.log(Level.SEVERE, "", e);
             throw e;
