@@ -4,7 +4,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * Created by admin on 11.10.2016.
+ * Created by makovetskyi on 11.10.2016.
  */
 public class ArCalc {
 

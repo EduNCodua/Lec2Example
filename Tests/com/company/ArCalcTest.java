@@ -7,7 +7,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Created by admin on 11.10.2016.
+ * Created by makovetskyi on 11.10.2016.
  */
 public class ArCalcTest {
 
